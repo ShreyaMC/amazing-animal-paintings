@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { ProductListComponent } from './product-list/product-list.component';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@ngbracket/ngx-layout';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [ProductListComponent],
-  imports: [CommonModule, MatCardModule, FlexLayoutModule],
+  imports: [CommonModule, MatCardModule, FlexLayoutModule, MatSnackBarModule],
 })
 export class ProductModule {}
